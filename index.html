@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff5f8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>استودیوی نیایش</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="app">
+    <header class="top">
+      <button id="btn-menu" type="button" aria-label="منو">منو</button>
+      <div class="lockup">
+        <b>استودیوی نیایش</b>
+        <span>Niyayesh Studio</span>
+      </div>
+      <button id="btn-undo" type="button">واگرد</button>
+      <button id="btn-redo" type="button">ازنو</button>
+      <button id="btn-save" type="button">ذخیره</button>
+      <span id="fps" hidden></span>
+    </header>
+    <hr class="gold">
+    <div class="workspace">
+      <aside id="panel-left" class="panel"></aside>
+      <section id="stage">
+        <canvas id="view"></canvas>
+        <canvas id="overlay"></canvas>
+        <p id="dpi-note"></p>
+      </section>
+      <aside id="panel-right" class="panel"></aside>
+    </div>
+    <nav class="dock" aria-label="ابزارها">
+      <button type="button" data-open="brush">قلم</button>
+      <button type="button" data-tool="eraser">پاک‌کن</button>
+      <button type="button" data-open="color">رنگ</button>
+      <button type="button" data-tool="fill">پر</button>
+      <button type="button" data-open="tools">ابزار</button>
+      <button type="button" data-open="layers">لایه</button>
+      <button type="button" data-open="products">وسیله</button>
+      <button type="button" data-tool="eyedropper">قطره</button>
+    </nav>
+  </div>
+  <button id="btn-exit-full" type="button">بستن تمام‌صفحه</button>
+  <div id="sheet" class="sheet" hidden>
+    <div class="sheet-card">
+      <div class="sheet-head">
+        <h2 id="sheet-title"></h2>
+        <button id="sheet-close" type="button">بستن</button>
+      </div>
+      <div id="sheet-body"></div>
+    </div>
+  </div>
+  <div id="welcome" hidden></div>
+  <div id="toast" hidden></div>
+  <input id="file" type="file" accept="image/*" hidden>
+  <input id="backup-file" type="file" accept="application/json" hidden>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "k7x-niya-studio",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/core.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "three": "^0.170.0"
+  }
+}

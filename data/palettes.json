@@ -1,0 +1,12 @@
+[
+  {"id":"pastel","name":"پاستل","colors":["#ffd6e5","#ffe3ec","#e9d5ff","#d8f3ff","#fff1c9","#ffe8d6"]},
+  {"id":"vintage","name":"قدیمی","colors":["#6b3a4a","#a86b5a","#d8a94b","#efe2c9","#7f8c6a","#3e4a59"]},
+  {"id":"neon","name":"نئون","colors":["#ff2d95","#7c5cff","#39f3ff","#c8ff3d","#ff5f1f","#ffffff"]},
+  {"id":"earth","name":"خاکی","colors":["#6b4226","#a36b43","#d8a94b","#efe6d6","#7d8a62","#2f2a28"]},
+  {"id":"sunset","name":"غروب","colors":["#4a2038","#b83266","#e84a7f","#ff8a5b","#ffd29d","#fff5f8"]},
+  {"id":"sea","name":"دریا","colors":["#083344","#0e7490","#22d3ee","#a5f3fc","#e0f2fe","#fff9f4"]},
+  {"id":"galaxy","name":"کهکشان","colors":["#1b1030","#4c1d95","#7c3aed","#e9d5ff","#f9a8d4","#fde68a"]},
+  {"id":"spring","name":"گل‌های بهاری","colors":["#ff5f9a","#ffb4d2","#fde68a","#86efac","#93c5fd","#fff9f4"]},
+  {"id":"soft","name":"ملایم","colors":["#fff5f8","#ffe3ec","#ffc9db","#e9d5ff","#fff9f4","#4a2038"]},
+  {"id":"glass","name":"شیشه","colors":["#ffffff","#d8a94b","#e84a7f","#7dd3fc","#111827","#b83266"]}
+]
